@@ -1,0 +1,6 @@
+如果安装在本地，就在本地数据库新建一个shop的数据库，导入think_tthxn_com.sql数据库文件
+注意：如果导入有错误，就打开think_tthxn_com.sql数据库文件复制里面的所有内容，在本地数据库上打开命令行粘贴进去，运行命令就可以了
+
+
+如果安装在服务器，就记得修改application/database.php
+中的数据库配置项

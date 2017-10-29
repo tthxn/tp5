@@ -1,0 +1,3201 @@
+---------------------------------------------------------------
+[ 2017-10-24T15:29:08+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] think.com/ [运行时间：2.211697s][吞吐率：0.45req/s] [内存消耗：2,355.45kb] [文件加载：54]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\thinkphp\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\index\index.php [ array (
+  0 => 'category',
+  1 => 'news',
+  2 => 'commend',
+  3 => 'commend1',
+  4 => 'more',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023680s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.254168s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.030649s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.078031s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `isnew` = 1 LIMIT 4 [ RunTime:0.002415s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `iscommend` = 1 LIMIT 4 [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `iscommend` = 1 ORDER BY id desc LIMIT 3 [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY create_time desc LIMIT 12 [ RunTime:0.001493s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:29:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：1.024719s][吞吐率：0.98req/s] [内存消耗：1,253.13kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:29:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.068513s][吞吐率：14.60req/s] [内存消耗：1,253.03kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:29:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.072780s][吞吐率：13.74req/s] [内存消耗：1,252.29kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:29:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.060551s][吞吐率：16.52req/s] [内存消耗：1,252.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:29:12+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png
+[ info ] think.com/static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png [运行时间：0.058677s][吞吐率：17.04req/s] [内存消耗：1,252.55kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.net',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/static/home/mimg.127.net/hxm/yanxuan-web/p/20150730/style/css/style-12909ab9ae.css',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:39:30+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] think.com/ [运行时间：0.250666s][吞吐率：3.99req/s] [内存消耗：2,355.82kb] [文件加载：54]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\thinkphp\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\index\index.php [ array (
+  0 => 'category',
+  1 => 'news',
+  2 => 'commend',
+  3 => 'commend1',
+  4 => 'more',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009228s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.023507s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.002220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.025403s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `isnew` = 1 LIMIT 4 [ RunTime:0.002199s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `iscommend` = 1 LIMIT 4 [ RunTime:0.001642s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `iscommend` = 1 ORDER BY id desc LIMIT 3 [ RunTime:0.002144s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY create_time desc LIMIT 12 [ RunTime:0.002534s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:39:31+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.161852s][吞吐率：6.18req/s] [内存消耗：1,252.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:39:31+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.213576s][吞吐率：4.68req/s] [内存消耗：1,253.14kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:39:31+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.210921s][吞吐率：4.74req/s] [内存消耗：1,252.29kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:39:31+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.092219s][吞吐率：10.84req/s] [内存消耗：1,252.29kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:39:31+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.095711s][吞吐率：10.45req/s] [内存消耗：1,252.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:39:31+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.108742s][吞吐率：9.20req/s] [内存消耗：1,253.03kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:39:31+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png
+[ info ] think.com/static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png [运行时间：0.137781s][吞吐率：7.26req/s] [内存消耗：1,252.55kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.net',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/static/home/mimg.127.net/hxm/yanxuan-web/p/20150730/style/css/style-12909ab9ae.css',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:48:50+08:00 ] 127.0.0.1 127.0.0.1 GET /lists/2
+[ info ] think.com/lists/2 [运行时间：0.283248s][吞吐率：3.53req/s] [内存消耗：2,269.07kb] [文件加载：54]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ F:\www\thinkphp\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\index\lists.php [ array (
+  0 => 'category',
+  1 => 'name',
+  2 => 'goodsInfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023980s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.055743s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.039352s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `category_id` = 2 [ RunTime:0.001671s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:48:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.085401s][吞吐率：11.71req/s] [内存消耗：1,253.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/lists/2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:48:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.063324s][吞吐率：15.79req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/lists/2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:48:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.058001s][吞吐率：17.24req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/lists/2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:48:52+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.096082s][吞吐率：10.41req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/lists/2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:48:52+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png
+[ info ] think.com/static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png [运行时间：0.089730s][吞吐率：11.14req/s] [内存消耗：1,252.55kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.net',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/static/home/mimg.127.net/hxm/yanxuan-web/p/20150730/style/css/style-12909ab9ae.css',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:48:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/register
+[ info ] think.com/index/register [运行时间：0.384076s][吞吐率：2.60req/s] [内存消耗：2,235.47kb] [文件加载：56]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/lists/2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\www\thinkphp\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\register\index.php [ array (
+  0 => 'category',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007476s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.036697s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001212s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:48:56+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.090513s][吞吐率：11.05req/s] [内存消耗：1,253.52kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/register',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:48:56+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.063669s][吞吐率：15.71req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=4',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/register',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:48:56+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.067042s][吞吐率：14.92req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=4',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/register',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:48:57+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.100210s][吞吐率：9.98req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=4',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/register',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:19+08:00 ] 127.0.0.1 127.0.0.1 POST /index/register
+[ info ] think.com/index/register [运行时间：0.365458s][吞吐率：2.74req/s] [内存消耗：2,264.77kb] [文件加载：57]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=4',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://think.com/index/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://think.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'user',
+  'pwd' => '222222',
+  'pwd2' => '222222',
+)
+[ info ] [ RUN ] app\index\controller\register->save[ F:\www\thinkphp\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006948s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.104260s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `username` = 'user' LIMIT 1 [ RunTime:0.052038s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:49:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/register
+[ info ] think.com/index/register [运行时间：0.155282s][吞吐率：6.44req/s] [内存消耗：2,026.60kb] [文件加载：54]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/lists/2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\register->index[ F:\www\thinkphp\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\register\index.php [ array (
+  0 => 'category',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006918s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.053620s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001728s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:49:23+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.066178s][吞吐率：15.11req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=6',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/register',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:33+08:00 ] 127.0.0.1 127.0.0.1 POST /index/register
+[ info ] think.com/index/register [运行时间：0.518395s][吞吐率：1.93req/s] [内存消耗：2,231.88kb] [文件加载：57]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Register',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=6',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://think.com/index/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://think.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '31',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'aaa',
+  'pwd' => '111111',
+  'pwd2' => '111111',
+)
+[ info ] [ RUN ] app\index\controller\register->save[ F:\www\thinkphp\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009745s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.037363s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `username` = 'aaa' LIMIT 1 [ RunTime:0.001043s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`username` , `password`) VALUES ('aaa' , '96e79218965eb72c92a549dd5a330112') [ RunTime:0.335222s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:49:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index
+[ info ] think.com/index/index [运行时间：0.232794s][吞吐率：4.30req/s] [内存消耗：2,357.66kb] [文件加载：54]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\thinkphp\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\index\index.php [ array (
+  0 => 'category',
+  1 => 'news',
+  2 => 'commend',
+  3 => 'commend1',
+  4 => 'more',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007937s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.051854s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.041548s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `isnew` = 1 LIMIT 4 [ RunTime:0.001988s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `iscommend` = 1 LIMIT 4 [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `iscommend` = 1 ORDER BY id desc LIMIT 3 [ RunTime:0.001589s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY create_time desc LIMIT 12 [ RunTime:0.002029s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:49:37+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.074167s][吞吐率：13.48req/s] [内存消耗：1,253.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/index',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:37+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.061432s][吞吐率：16.28req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=8',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/index',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:38+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.119992s][吞吐率：8.33req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/index',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:38+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.066624s][吞吐率：15.01req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/index',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:38+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png
+[ info ] think.com/static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png [运行时间：0.088934s][吞吐率：11.24req/s] [内存消耗：1,252.55kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.net',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=8',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/static/home/mimg.127.net/hxm/yanxuan-web/p/20150730/style/css/style-12909ab9ae.css',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login
+[ info ] think.com/index/login [运行时间：0.381222s][吞吐率：2.62req/s] [内存消耗：2,231.18kb] [文件加载：56]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=8',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ F:\www\thinkphp\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\login\index.php [ array (
+  0 => 'category',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024911s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.039390s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001352s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:49:41+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.083003s][吞吐率：12.05req/s] [内存消耗：1,253.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=8',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/login',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:41+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.095362s][吞吐率：10.49req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=8',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/login',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:41+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.059615s][吞吐率：16.77req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/login',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:41+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.061148s][吞吐率：16.35req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/login',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:42+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.095017s][吞吐率：10.52req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=8',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/login',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index/login
+[ info ] think.com/index/login [运行时间：0.280120s][吞吐率：3.57req/s] [内存消耗：2,270.57kb] [文件加载：56]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://think.com/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://think.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'aaa',
+  'password' => '111111',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ F:\www\thinkphp\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009022s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.081063s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.041043s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `username` = 'aaa' LIMIT 1 [ RunTime:0.001291s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:49:50+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] think.com/ [运行时间：0.298464s][吞吐率：3.35req/s] [内存消耗：2,361.53kb] [文件加载：54]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\thinkphp\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\index\index.php [ array (
+  0 => 'category',
+  1 => 'news',
+  2 => 'commend',
+  3 => 'commend1',
+  4 => 'more',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006722s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.131795s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.002300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.052777s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `isnew` = 1 LIMIT 4 [ RunTime:0.002140s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `iscommend` = 1 LIMIT 4 [ RunTime:0.001302s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `iscommend` = 1 ORDER BY id desc LIMIT 3 [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` ORDER BY create_time desc LIMIT 12 [ RunTime:0.001624s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:49:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.079777s][吞吐率：12.53req/s] [内存消耗：1,253.14kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.062410s][吞吐率：16.02req/s] [内存消耗：1,252.29kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.063021s][吞吐率：15.87req/s] [内存消耗：1,252.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.058272s][吞吐率：17.16req/s] [内存消耗：1,253.03kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.060157s][吞吐率：16.62req/s] [内存消耗：1,252.29kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.097094s][吞吐率：10.30req/s] [内存消耗：1,252.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:49:52+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png
+[ info ] think.com/static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png [运行时间：0.089227s][吞吐率：11.21req/s] [内存消耗：1,252.55kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.net',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/static/home/mimg.127.net/hxm/yanxuan-web/p/20150730/style/css/style-12909ab9ae.css',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:01+08:00 ] 127.0.0.1 127.0.0.1 GET /mycart/lists
+[ info ] think.com/mycart/lists [运行时间：0.316841s][吞吐率：3.16req/s] [内存消耗：2,294.49kb] [文件加载：56]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Mycart',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mycart->lists[ F:\www\thinkphp\application\index\controller\Mycart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\mycart\lists.php [ array (
+  0 => 'category',
+  1 => 'data',
+  2 => 'da',
+  3 => 'num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008505s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.039229s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001586s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:50:01+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.129305s][吞吐率：7.73req/s] [内存消耗：1,253.52kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/mycart/lists',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:01+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.076358s][吞吐率：13.10req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/mycart/lists',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:01+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.060129s][吞吐率：16.63req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=11',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/mycart/lists',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:01+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.074921s][吞吐率：13.35req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=11',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/mycart/lists',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:02+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.069488s][吞吐率：14.39req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/mycart/lists',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:04+08:00 ] 127.0.0.1 127.0.0.1 GET /myorder
+[ info ] think.com/myorder [运行时间：0.482568s][吞吐率：2.07req/s] [内存消耗：2,489.39kb] [文件加载：59]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Myorder',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=11',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/mycart/lists',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Myorder->index[ F:\www\thinkphp\application\index\controller\Myorder.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\myorder\index.php [ array (
+  0 => 'category',
+  1 => 'arr',
+  2 => 'goods',
+  3 => 'aa',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006706s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.039766s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.090001s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `users_id` = 6 [ RunTime:0.001561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.041425s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.001866s ]
+[ sql ] [ SQL ] select a.id,c.list_image,b.order_id,c.name,c.id as gid from orders a,orderslist b,goods c where b.goods_id=c.id and a.id=b.order_id [ RunTime:0.062052s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:50:04+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.063951s][吞吐率：15.64req/s] [内存消耗：1,253.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=11',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/myorder',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:04+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.071763s][吞吐率：13.93req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=12',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/myorder',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:04+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.072211s][吞吐率：13.85req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=12',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/myorder',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:04+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.062229s][吞吐率：16.07req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=12',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/myorder',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:04+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.net/f9a6f226770589644616de6b95c59fc1.png-imageView&&thumbnail=100x100&quality=95.png
+[ info ] think.com/static/home/yanxuan.nosdn.127.net/f9a6f226770589644616de6b95c59fc1.png-imageView&&thumbnail=100x100&quality=95.png [运行时间：0.068906s][吞吐率：14.51req/s] [内存消耗：1,252.60kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.net',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=12',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/static/home/mimg.127.net/hxm/yanxuan-web/p/20150730/style/css/style-12909ab9ae.css',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:09+08:00 ] 127.0.0.1 127.0.0.1 GET /lists/2
+[ info ] think.com/lists/2 [运行时间：0.219863s][吞吐率：4.55req/s] [内存消耗：2,270.09kb] [文件加载：54]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=12',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/myorder',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ F:\www\thinkphp\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\index\lists.php [ array (
+  0 => 'category',
+  1 => 'name',
+  2 => 'goodsInfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007380s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.063729s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001309s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.040420s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `category_id` = 2 [ RunTime:0.001579s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:50:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.111511s][吞吐率：8.97req/s] [内存消耗：1,253.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=12',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/lists/2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.062630s][吞吐率：15.97req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=13',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/lists/2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.065550s][吞吐率：15.26req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=13',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/lists/2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.059840s][吞吐率：16.71req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=13',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/lists/2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png
+[ info ] think.com/static/home/yanxuan.nosdn.127.net/1769a954d4d5c7a6b25da57f15fc5a1d.png [运行时间：0.083303s][吞吐率：12.00req/s] [内存消耗：1,252.55kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.net',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=13',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/static/home/mimg.127.net/hxm/yanxuan-web/p/20150730/style/css/style-12909ab9ae.css',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:12+08:00 ] 127.0.0.1 127.0.0.1 GET /content/13
+[ info ] think.com/content/13 [运行时间：0.427928s][吞吐率：2.34req/s] [内存消耗：2,357.92kb] [文件加载：54]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'content',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=13',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/lists/2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+)
+[ info ] [ RUN ] app\index\controller\Index->content[ F:\www\thinkphp\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\index\content.php [ array (
+  0 => 'category',
+  1 => 'goo',
+  2 => 'goods',
+  3 => 'goodslist',
+  4 => 'cate',
+  5 => 'arr',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007723s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.094125s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001697s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.046486s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.001820s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goodslist` [ RunTime:0.090885s ]
+[ sql ] [ SQL ] SELECT * FROM `goodslist` WHERE  `goods_id` = 13 [ RunTime:0.001208s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.001319s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:50:13+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.081275s][吞吐率：12.30req/s] [内存消耗：1,253.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=13',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:13+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.067340s][吞吐率：14.85req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=14',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:13+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.064897s][吞吐率：15.41req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=14',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:17+08:00 ] 127.0.0.1 127.0.0.1 GET /addcart/?page=13%2F16%2F1
+[ info ] think.com/addcart/?page=13%2F16%2F1 [运行时间：0.294204s][吞吐率：3.40req/s] [内存消耗：2,297.55kb] [文件加载：57]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Mycart',
+    2 => 'addCart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=14',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '13/16/1',
+  'id' => NULL,
+)
+[ info ] [ RUN ] app\index\controller\Mycart->addCart[ F:\www\thinkphp\application\index\controller\Mycart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006661s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.050551s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.001586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goodslist` [ RunTime:0.040375s ]
+[ sql ] [ SQL ] SELECT * FROM `goodslist` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000964s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:50:18+08:00 ] 127.0.0.1 127.0.0.1 GET /order/?str=13%2F16%2F1
+[ info ] think.com/order/?str=13%2F16%2F1 [运行时间：0.132799s][吞吐率：7.53req/s] [内存消耗：1,472.61kb] [文件加载：47]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Order',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=14',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'str' => '13/16/1',
+  'id' => NULL,
+  'number' => NULL,
+  'attr' => NULL,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[F:\www\thinkphp\thinkphp\library\think\App.php:282]
+---------------------------------------------------------------
+[ 2017-10-24T15:50:18+08:00 ] 127.0.0.1 127.0.0.1 GET /order/13/1/16
+[ info ] think.com/order/13/1/16 [运行时间：0.513437s][吞吐率：1.95req/s] [内存消耗：2,639.61kb] [文件加载：60]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Order',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=14',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+  'number' => '1',
+  'attr' => '16',
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ F:\www\thinkphp\application\index\controller\Order.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\order\index.php [ array (
+  0 => 'category',
+  1 => 'gInfo',
+  2 => 'address',
+  3 => 'changeAdd',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012688s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.045452s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.002216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.045243s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.001974s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goodslist` [ RunTime:0.047549s ]
+[ sql ] [ SQL ] SELECT * FROM `goodslist` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `address` [ RunTime:0.086054s ]
+[ sql ] [ SQL ] SELECT * FROM `address` WHERE  `users_id` = 6  AND `is_default` = 1 LIMIT 1 [ RunTime:0.001814s ]
+[ sql ] [ SQL ] SELECT * FROM `address` WHERE  `users_id` = 6 LIMIT 1 [ RunTime:0.001541s ]
+[ sql ] [ SQL ] SELECT * FROM `address` WHERE  `users_id` = 6 [ RunTime:0.001564s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:50:19+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.086274s][吞吐率：11.59req/s] [内存消耗：1,253.52kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=14',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/order/13/1/16',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:19+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.133767s][吞吐率：7.48req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=14',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/order/13/1/16',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:19+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.060939s][吞吐率：16.41req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=15',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/order/13/1/16',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:19+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.065310s][吞吐率：15.31req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=15',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/order/13/1/16',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:20+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.089141s][吞吐率：11.22req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=14',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/order/13/1/16',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:50:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index/address/index
+[ info ] think.com/index/address/index [运行时间：0.290088s][吞吐率：3.45req/s] [内存消耗：2,230.57kb] [文件加载：56]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'address',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=15',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://think.com/order/13/1/16',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://think.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '168',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'province' => '北京市',
+  'city' => '北京市',
+  'country' => '东城区',
+  'address' => '11111',
+  'name' => '111',
+  'mobile' => '121212121',
+  'users_id' => '6',
+  'is_default' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Address->index[ F:\www\thinkphp\application\index\controller\Address.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007190s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `address` [ RunTime:0.038822s ]
+[ sql ] [ SQL ] INSERT INTO `address` (`province` , `city` , `country` , `address` , `name` , `mobile` , `users_id` , `is_default`) VALUES ('北京市' , '北京市' , '东城区' , '11111' , '111' , 121212121 , 6 , 0) [ RunTime:0.067876s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:51:24+08:00 ] 127.0.0.1 127.0.0.1 POST /confirm/13/16
+[ info ] think.com/confirm/13/16 [运行时间：0.569060s][吞吐率：1.76req/s] [内存消耗：2,521.67kb] [文件加载：62]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Order',
+    2 => 'order',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=15',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://think.com/order/13/1/16',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://think.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '138',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'remarks' => '',
+  'address_id' => '',
+  'num' => '1',
+  'addarr' => '111/121212121/北京市北京市东城区11111',
+  'id' => '13',
+  'aid' => '16',
+)
+[ info ] [ RUN ] app\index\controller\Order->order[ F:\www\thinkphp\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\order\order.php [ array (
+  0 => 'orderId',
+  1 => 'total',
+  2 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015817s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.050500s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001784s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.044869s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.002034s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goodslist` [ RunTime:0.041963s ]
+[ sql ] [ SQL ] SELECT * FROM `goodslist` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.001104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.039384s ]
+[ sql ] [ SQL ] INSERT INTO `orders` (`order_number` , `users_id` , `order_time` , `receive_name` , `receive_tel` , `receive_address` , `address_id` , `total` , `order_status` , `logistics`) VALUES ('G1024314836418630' , 6 , '2017-10-24 15:51:23' , '111' , '121212121' , '北京市北京市东城区11111' , 0 , 212 , '未支付' , '待发货') [ RunTime:0.053996s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orderslist` [ RunTime:0.058298s ]
+[ sql ] [ SQL ] INSERT INTO `orderslist` (`order_id` , `number` , `subtotal` , `remark` , `goods_id` , `goods_attr`) VALUES (12 , 1 , 212 , '' , 13 , '烟草绿') [ RunTime:0.046702s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:51:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.071792s][吞吐率：13.93req/s] [内存消耗：1,253.52kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=15',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/confirm/13/16',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.061858s][吞吐率：16.17req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=16',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/confirm/13/16',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.071666s][吞吐率：13.95req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=16',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/confirm/13/16',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:24+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.056459s][吞吐率：17.71req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=16',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/confirm/13/16',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:34+08:00 ] 127.0.0.1 127.0.0.1 GET /myorder
+[ info ] think.com/myorder [运行时间：0.361871s][吞吐率：2.76req/s] [内存消耗：2,360.47kb] [文件加载：58]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Myorder',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=16',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/confirm/13/16',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Myorder->index[ F:\www\thinkphp\application\index\controller\Myorder.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\myorder\index.php [ array (
+  0 => 'category',
+  1 => 'arr',
+  2 => 'orderslist',
+  3 => 'goods',
+  4 => 'aa',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008683s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.084687s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.039354s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `users_id` = 6 [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orderslist` [ RunTime:0.058263s ]
+[ sql ] [ SQL ] SELECT * FROM `orderslist` WHERE  `order_id` = 12 [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.044876s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.001986s ]
+[ sql ] [ SQL ] select a.id,c.list_image,b.order_id,c.name,c.id as gid from orders a,orderslist b,goods c where b.goods_id=c.id and a.id=b.order_id [ RunTime:0.001803s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:51:34+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.118029s][吞吐率：8.47req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=16',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/myorder',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:34+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.168693s][吞吐率：5.93req/s] [内存消耗：1,253.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=16',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/myorder',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:35+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.056874s][吞吐率：17.58req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/myorder',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:35+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.058829s][吞吐率：17.00req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/myorder',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:35+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.098155s][吞吐率：10.19req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=16',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/myorder',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:35+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.net/f9a6f226770589644616de6b95c59fc1.png-imageView&&thumbnail=100x100&quality=95.png
+[ info ] think.com/static/home/yanxuan.nosdn.127.net/f9a6f226770589644616de6b95c59fc1.png-imageView&&thumbnail=100x100&quality=95.png [运行时间：0.063993s][吞吐率：15.63req/s] [内存消耗：1,252.60kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.net',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/static/home/mimg.127.net/hxm/yanxuan-web/p/20150730/style/css/style-12909ab9ae.css',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:39+08:00 ] 127.0.0.1 127.0.0.1 GET /content/13
+[ info ] think.com/content/13 [运行时间：0.270029s][吞吐率：3.70req/s] [内存消耗：2,085.55kb] [文件加载：52]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'content',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/myorder',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+)
+[ info ] [ RUN ] app\index\controller\Index->content[ F:\www\thinkphp\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\thinkphp\public/../application/index\view\index\content.php [ array (
+  0 => 'category',
+  1 => 'goo',
+  2 => 'goods',
+  3 => 'goodslist',
+  4 => 'cate',
+  5 => 'arr',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007636s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.072178s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `pid` = 0  AND `id` > 1 [ RunTime:0.001529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.045559s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.001739s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goodslist` [ RunTime:0.038732s ]
+[ sql ] [ SQL ] SELECT * FROM `goodslist` WHERE  `goods_id` = 13 [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.001942s ]
+---------------------------------------------------------------
+[ 2017-10-24T15:51:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.092948s][吞吐率：10.76req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css
+[ info ] think.com/static/home/yanxuan.nosdn.127.nethxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css-v=1505963072142.css [运行时间：0.127685s][吞吐率：7.83req/s] [内存消耗：1,253.27kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'yanxuan.nosdn.127.nethxm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'component' => 'p',
+  0 => 'js',
+  'dist' => 'yxComponent.all.min.css-v=1505963072142.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/js/theme/default/layer.css?v=3.1.0
+[ info ] think.com/static/home/js/theme/default/layer.css?v=3.1.0 [运行时间：0.063870s][吞吐率：15.66req/s] [内存消耗：1,253.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=18',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '3.1.0',
+  'theme' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-f530269a25.page.css
+[ info ] think.com/static/home/css/toPay-f530269a25.page.css [运行时间：0.068673s][吞吐率：14.56req/s] [内存消耗：1,252.42kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=18',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:40+08:00 ] 127.0.0.1 127.0.0.1 GET /static/home/css/toPay-7cbe21654f.css
+[ info ] think.com/static/home/css/toPay-7cbe21654f.css [运行时间：0.096616s][吞吐率：10.35req/s] [内存消耗：1,252.41kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-24T15:51:46+08:00 ] 127.0.0.1 127.0.0.1 GET /addcart/?page=13%2F17%2F1
+[ info ] think.com/addcart/?page=13%2F17%2F1 [运行时间：0.328353s][吞吐率：3.05req/s] [内存消耗：2,299.02kb] [文件加载：57]
+[ info ] [ LANG ] F:\www\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Mycart',
+    2 => 'addCart',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=217254355.4528401313344505300.1506243351770.6152; PHPSESSID=m8dllcablfotmqcilcqe7jegh2; monitor_count=18',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://think.com/content/13',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'think.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '13/17/1',
+  'id' => NULL,
+)
+[ info ] [ RUN ] app\index\controller\Mycart->addCart[ F:\www\thinkphp\application\index\controller\Mycart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006565s ] mysql:host=127.0.0.1;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.095447s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.002351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goodslist` [ RunTime:0.125775s ]
+[ sql ] [ SQL ] SELECT * FROM `goodslist` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.001516s ]
